@@ -45,3 +45,20 @@ const dataShow = (data) => {
 };
 
 fetchData();
+
+
+
+
+
+
+
+
+
+
+
+data.tools.sort(
+      (a, b) => new Date(b.published_in) - new Date(a.published_in)
+    );
+    data.tools.sort(
+      (a, b) => new Date(a.published_in) - new Date(b.published_in)
+    );
